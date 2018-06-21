@@ -1,0 +1,31 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #bada55;
+    /* both way transition on hover */
+    transition-property: width, background-color;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    /* https://matthewlein.com/tools for effect examples:*/
+    transition-timing-function: ease-in-out;
+}
+
+.box:hover {
+    width: 250px;
+    background-color:  #e84610;
+    /* one way transition on hever */
+    
+}
+
+a {
+  color: #e84610;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
