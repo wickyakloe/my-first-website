@@ -1,6 +1,6 @@
-# My Very First Web Page
+# Welcome!
 
-Welcome!
+
 
 As part of my courses i will be learning and using the following:
 
