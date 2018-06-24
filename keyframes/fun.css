@@ -1,5 +1,5 @@
 .box {
-    background-color: #000;
+    background-color: #bada55;
     width: 150px;
     height: 0;
     margin: 25px;
@@ -9,7 +9,7 @@
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
     animation-direction: alternate;
     
 }
@@ -35,11 +35,22 @@
     
 }
 
+.navlist {
+    font-family: monospace, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    
+    animation-name: navitems;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
 @keyframes growing {
-    from{
+    0%{
         height: 0;
     }
-    to {
+    100% {
         height: 150px;
     }
 }
@@ -50,5 +61,17 @@
     }
     to {
         top: 250px;
+    }
+}
+
+@keyframes navitems {
+    0%{
+        color: #fff;
+    }
+    50%{
+        color: #bada55;
+    }
+    100%{
+        color: #fff;
     }
 }
